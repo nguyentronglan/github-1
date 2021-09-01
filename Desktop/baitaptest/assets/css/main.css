@@ -1,0 +1,210 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: REGULAR;
+  box-sizing: border-box;
+}
+.main {
+  max-width: 1920px;
+  margin: auto;
+}
+.main .main-menu {
+  max-width: 1140px;
+  margin: auto;
+}
+.main .main-menu .main-menu-Submenu {
+  display: flex;
+  padding: 20px 0px;
+}
+.main .main-menu .main-menu-Submenu .main-logo {
+  width: 10%;
+}
+.main .main-menu .main-menu-Submenu .main-logo img {
+  width: 60%;
+}
+.main .main-menu .main-menu-Submenu .main-navi {
+  width: 80%;
+}
+.main .main-menu .main-menu-Submenu .main-navi ul {
+  list-style-type: none;
+  margin: 0;
+}
+.main .main-menu .main-menu-Submenu .main-navi ul li {
+  display: inline-block;
+  padding: 0px 11px;
+}
+.main .main-menu .main-menu-Submenu .main-navi ul li a {
+  text-decoration: none;
+  color: #d2d2d3;
+  display: block;
+  font-size: 14px;
+}
+.main .main-menu .main-menu-Submenu .main-navi ul li a:hover {
+  color: blue;
+}
+.container {
+  margin: auto;
+}
+.container .section-block {
+  max-width: 700px;
+  margin: auto;
+}
+.container .section-block h1 {
+  font-size: 64px;
+}
+.container .section-block .comment {
+  display: inline-flex;
+  align-items: center;
+  grid-column-gap: 15px;
+}
+.container .section-block .comment .comment-avatar {
+  width: 55px;
+  height: 55px;
+  background-image: url(33w.png);
+  border-radius: 50%;
+}
+.container .section-block .comment .comment-checkin {
+  width: 74%;
+  font-size: 14px;
+}
+.container .section-block h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 9px 0px;
+  padding: 30px 0px;
+}
+.container .section-block p {
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.3px;
+}
+.container .section-block .media {
+  grid-column-gap: 15px;
+}
+.section-text {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  grid-column-gap: 80px;
+}
+.section-text .section-text-view {
+  width: 60%;
+}
+.section-text .section-text-quote {
+  width: 30%;
+}
+.section-text .section-text-quote .media {
+  grid-column-gap: 15px;
+}
+.section-text .section-text-quote .media h4 {
+  font-size: 14px;
+}
+.section-text .section-text-quote .media img {
+  border-radius: 50%;
+}
+.section-coments {
+  max-width: 700px;
+  margin: auto;
+}
+.section-coments .media {
+  grid-column-gap: 15px;
+}
+.section-coments .media img {
+  border-radius: 50%;
+}
+.custom-content {
+  text-align: center;
+}
+.custom-content h2 {
+  font-size: 42px;
+  padding: 20px 0;
+}
+.card-1 {
+  position: relative;
+}
+.card-1:after {
+  content: "";
+  display: block;
+  padding-bottom: 73%;
+}
+.card-1 .image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(Image2.png);
+  background-size: cover;
+  background-position: center;
+}
+.card-1 .image-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(Image3.png);
+  background-size: cover;
+  background-position: center;
+}
+.card-1 .image-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(Image4.png);
+  background-size: cover;
+  background-position: center;
+}
+.mau {
+  background: black;
+}
+.col-md-6 {
+  display: flex;
+  grid-column-gap: 20px;
+  line-height: 34px;
+  padding: 20px;
+}
+.col-md-6 .navigation {
+  padding: 1px 0px;
+}
+.col-md-6 .navigation li {
+  list-style: none;
+}
+.col-md-6 .navigation li a {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.social-icon1 {
+  display: flex;
+  grid-column-gap: 10px;
+  line-height: 34px;
+  padding: 20px 0px 0px 29px;
+}
+.social-icon1 li {
+  list-style: none;
+}
+.social-icon1 li a {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.social-icon1 li i {
+  color: #fff;
+}
+.logo-1 {
+  padding: 20px 0;
+  line-height: 20px;
+}
+.logo-1 img {
+  width: 30%;
+  padding-bottom: 10px;
+}
+.logo-1 p {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.form-inline .form-group {
+  width: 140px;
+}
+.btn-default {
+  background: brown;
+}
